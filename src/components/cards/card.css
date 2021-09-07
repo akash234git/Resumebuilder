@@ -1,0 +1,43 @@
+
+.cards-class{
+margin-top: 15px;
+background-color: silver;
+}
+
+.text{
+    text-align: center;
+}
+
+.height-img{
+   
+    height: 334px;
+   cursor: pointer;
+}
+
+.height-img img{
+    width: 100%;
+    height: 100%;
+         opacity: 0.5;
+         transition: 0.9;
+        
+}
+
+.height-img:hover{
+transform: scale(1.3);
+z-index:2;
+box-shadow: 0px 2px 20px #fff;
+}
+
+
+
+
+.link-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid green;
+    color: black;
+
+}
