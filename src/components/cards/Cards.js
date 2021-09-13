@@ -1,8 +1,6 @@
 import React from 'react';
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button,Row,Col,Container
-} from 'reactstrap';
+  Card, CardImg, CardBody,Row,Col,Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import "./card.css";
 
@@ -19,7 +17,7 @@ const Cards = (props) => {
         <CardImg className="height-img" id="zoom-in"top width="100%" src="/assets/images/temp1.png" alt="Card image cap" />
         
         <CardBody>
-                    <Link className="link-class" to="/signUp">Select Template</Link>
+                    <Link className="link-class" to="/details">Select Template</Link>
         </CardBody>
         </div>
       </Card>
@@ -28,7 +26,7 @@ const Cards = (props) => {
       <Card>
         <CardImg className="height-img" top width="100%" src="/assets/images/temp2.jpg" alt="Card image cap" />
         <CardBody>
-        <Link className="link-class" to="/signUp">Select Template</Link>
+        <Link className="link-class" to="/details">Select Template</Link>
         </CardBody>
       </Card>
       </Col>
@@ -36,7 +34,7 @@ const Cards = (props) => {
       <Card>
         <CardImg className="height-img" top width="100%" src="/assets/images/temp3.jpg" alt="Card image cap" />
         <CardBody>
-        <Link className="link-class" to="/signUp">Select Template</Link>
+        <Link className="link-class" to="/details">Select Template</Link>
         </CardBody>
       </Card>
       </Col>
@@ -44,7 +42,7 @@ const Cards = (props) => {
       <Card>
         <CardImg className="height-img" top width="100%" src="/assets/images/temp4.jpg" alt="Card image cap" />
         <CardBody>
-        <Link className="link-class" to="/signUp">Select Template</Link>
+        <Link className="link-class" to="/details">Select Template</Link>
         </CardBody>
       </Card>
       </Col>

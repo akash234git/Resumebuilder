@@ -6,13 +6,16 @@
 }
 
 .info-btn{
+    width: 40%;
     margin-top: 40px;
+    margin-left: 23%;
     text-decoration: none;
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 2px solid green;
-    color: black;
+    border: 2px solid rgb(7, 7, 189);
+    color:white;
+    background-color: rgb(7, 7, 189);
     
 }
 .right{

@@ -1,3 +1,17 @@
+.details-btn{
+    margin-left: 44%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid rgb(7, 7, 189);
+    color:white;
+    background-color: rgb(7, 7, 189);
+
+}
+
 .firstHeading{
     margin-top: 150px;
     text-align: center;
