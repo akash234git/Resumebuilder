@@ -1,0 +1,243 @@
+.form-head{
+    display: table;
+         margin-top: 20px;
+         margin-left: 40%;
+        background-color: rgb(241, 227, 227)
+       }
+
+       .head-personal{
+           margin-top: 20px;
+           margin-left: 600px;
+       }
+
+       .personal{
+           
+         height:auto;
+         width: 80%;
+         margin-left: 155px;
+        background-color: rgb(241, 227, 227);
+           display: flex;
+
+
+       }
+
+       .name{
+           margin-top: 20px;
+           margin-left: 200px;
+       }
+
+       .phone{
+        margin-top: 20px;
+           margin-left: 40px;
+       }
+
+       .email{
+        margin-top: 20px;
+           margin-left: 40px;
+       }
+
+       .other{
+           background-color: rgb(241, 227, 227);
+           width: 80%;
+           margin-left: 155px;
+       }
+
+       .social{
+           padding-top: 50px;
+           margin-left: 440px;
+           
+         }
+
+         
+
+       .profile-btn{
+           margin-top:20px;
+           margin-left: 55px ;
+           background-color: rgb(168, 233, 168);
+           border-radius: 12px;
+       }
+
+       .delete{
+           background-color:  rgb(230, 164, 164);
+           border-radius: 12px;
+       }
+
+       .objective{
+           margin-top: 50px;
+           
+            margin-left: 275px;
+            
+       }
+
+       .obj{
+           font-size: medium;
+           color: rgb(82, 79, 79);
+           margin-bottom: 10px;
+          margin-left: 230px;
+           display: block;
+       }
+
+       .text-obj{
+         margin-bottom: 20px;
+         margin-left: 40px;
+        height:100px;
+        width: 500px;
+       }
+
+       .edu-head{
+           margin-top: 20px;
+           text-align: center;
+       }
+
+       .education{
+        background-color: rgb(241, 227, 227);
+        margin-left: 155px;
+           height: auto;
+           width: 80%;
+       }
+
+       .edu-first{
+           padding-top: 20px;
+           margin-left: 300px;
+           display: flex;
+       }
+
+       .institution{
+           margin-top: 70px;
+           margin-right: 20px;
+       }
+
+         .course{
+             margin-top: 70px;
+           margin-left: 40px;
+       }
+
+       .edu-second{
+        margin-top: 40px;
+          margin-left: 257px;
+          display: flex; 
+           }
+
+           .city{
+               margin-left: 50px;
+           }
+
+           .edu-btn{
+               margin-top: 20px;
+               margin-left: 480px;
+               background-color: rgb(168, 233, 168);
+           border-radius: 12px;
+           margin-bottom: 50px;
+           }
+
+           .edu-delete{
+               margin-left: 800px;
+               border-radius: 12px;
+               background-color:  rgb(230, 164, 164);
+           }
+
+           .work-head{
+               margin-top: 20px;
+               text-align: center;
+           }
+           
+           .work{
+            height:auto;
+            width: 80%;
+            margin-left: 155px;
+           background-color: rgb(241, 227, 227);
+              
+           }
+
+            .work-first{
+                padding-top: 20px;
+                margin-left:150px;
+
+                display: flex;
+            }
+             
+            
+            .position{
+                margin-right: 20px;
+            }
+            .company{
+                margin-left: 40px;
+            }
+
+            .work-second{
+                margin-top: 50px;
+                display: flex;
+                margin-left: 150px;
+            }
+
+            .about{
+                margin-right: 20px;
+            }
+
+            .duration{
+                margin-left: 40px;
+            }
+          
+            .work-btn{
+                margin-top: 40px;
+                margin-left: 475px;
+                background-color: rgb(168, 233, 168);
+                border-radius: 12px;
+                margin-bottom: 50px;
+            }
+  
+              .work-delete{
+                  margin-left: 650px;
+                  background-color:  rgb(230, 164, 164);
+                  border-radius: 12px;
+              }
+          
+
+              .head-award{
+                  text-align: center;
+                  margin-top: 20px;
+              }
+
+              .last{
+                  margin-left: 155px;
+                height: auto;
+                width: 80%;
+                background-color: rgb(241, 227, 227);
+              }
+
+              .awards{
+                  padding-top: 20px;
+                  margin-left: 430px;
+              }
+
+              .award-btn{
+                  margin-top: 15px;
+                  margin-left: 40px;
+                background-color: rgb(168, 233, 168);
+                border-radius: 12px;
+                margin-bottom: 50px;
+              }
+     
+           .skill-first{
+               margin-left: 450px;
+           }
+
+           .skill-btn{
+               margin-top: 15px;
+            margin-left: 500px;
+            background-color: rgb(168, 233, 168);
+            border-radius: 12px;
+            margin-bottom: 50px; 
+           }
+
+           .submit{
+               margin-left: 440px;
+               width: 200px;
+                background-color: rgb(169, 169, 228);
+           }
+
+           .skill-delete{
+               margin-left: 680px;
+               background-color:  rgb(230, 164, 164);
+               border-radius: 12px;
+           }
