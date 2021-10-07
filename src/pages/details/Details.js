@@ -12,7 +12,7 @@ import {number,object,string,array}  from 'yup'
 import Firebase from "firebase";
 import {TextField} from "formik-material-ui";
 import "./details.css"; 
-
+import { useHistory } from 'react-router';
 
 
 
@@ -63,6 +63,8 @@ const validationSchema = object({
 
 
 export default function Details(){ 
+  let history=useHistory();
+  
   
 const [formValues] = useState(null)
 return (
@@ -72,9 +74,7 @@ return (
     validationSchema={validationSchema}
     onSubmit={onSubmit}
     enableReinitialize
-    // validateOnChange={false}
-    // validateOnBlur={false}
-    // validateOnMount
+    validateOnMount
   >
     {formik => {
       console.log('Formik props', formik)
@@ -324,6 +324,7 @@ return (
             </FieldArray>
           </div>
           <button
+          onClick={()=>{history.push('/templates')}}
           className="submit"
             type='submit'
             disabled={!formik.isValid || formik.isSubmitting}
@@ -346,5 +347,3 @@ return (
   
 )
 }
-
-
