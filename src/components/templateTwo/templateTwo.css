@@ -1,0 +1,78 @@
+.head-second{
+    text-align: center;
+}
+
+.temp-second{
+    margin: 0 auto;
+    background-color: white;
+    font-size: small;
+    border: solid;
+    width: 50%;
+     height: auto;
+}
+
+.details-top{
+    margin-left: 250px;
+}
+
+hr{
+    border-top: 2px solid #000000;
+    width: 85%;
+    margin-left: 60px;
+    
+}
+
+.details-bottom{
+    margin-left: 55px;
+}
+
+.obj-top{
+    margin-left: 250px;
+}
+
+
+.obj-hr{
+    border-top: 2px solid #000000;
+    width: 90%;
+    margin-left: 20px;
+    
+} 
+
+
+.obj-bottom{
+    margin-left: 30px;
+    text-align: center;
+    width: 80%;
+}
+
+.achieve-top{
+    margin-left: 222px;
+}
+
+.achieve-bottom{
+    margin-left: 55px;
+}
+
+.skills-top{
+    margin-left: 308px;
+}
+
+.skills-bottom{
+    margin-left: 55px;
+}
+
+.history-top{
+    margin-left: 278px;
+}
+
+.history-bottom{
+    margin-left: 55px;
+}
+
+.edu-top{
+    margin-left: 288px;
+}
+
+.edu-bottom{
+    margin-left: 55px;
+}

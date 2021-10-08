@@ -1,7 +1,7 @@
 import React from 'react'
 import JsxParser from "react-jsx-parser";
 import "./templateOne.css";
-import Injectable from '../injectable/Injectable';
+import Injectable from '../../pages/injectable/Injectable';
 
 
 

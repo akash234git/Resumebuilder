@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import firebase from "firebase";
+import firebase from "../../components/firebase/firebase";
 
 
 
@@ -61,13 +61,13 @@ export default function Injectable() {
         <p>social|c-32/32|phoneNumber|email</p>
           </div>
        </div>
-       <div className= "objective">
+       <div className= "objective-temp">
            <h3>Objective</h3>
            <div>
            <p>data.objective</p>
                </div>
        </div>
-       <div className="education">
+       <div className="education-temp">
            <h3>Education</h3>
            <div className="edu-list">
            <ul>
@@ -103,7 +103,7 @@ export default function Injectable() {
                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                </div>
            </div>
-             <div className="awards">
+             <div className="awards-temp">
                  <div>
                       <h3>Award and Acknowledgements</h3>
                      </div>

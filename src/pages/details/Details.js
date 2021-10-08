@@ -9,7 +9,7 @@ import {
   
 } from 'formik'
 import {number,object,string,array}  from 'yup'
-import Firebase from "firebase";
+import firebase from "../../components/firebase/firebase";
 import {TextField} from "formik-material-ui";
 import "./details.css"; 
 import { useHistory } from 'react-router';
@@ -37,15 +37,15 @@ const initialValues = {
 
 
 
-const onSubmit = (values, submitProps) => {
-  let ref1 = Firebase.database().ref().child('users').push()
-    ref1.set(values)
-  console.log('Form data', values)
-  console.log('submitProps', submitProps)
-  submitProps.setSubmitting(false)
-  submitProps.resetForm()
-}
-
+  const onSubmit = (values, submitProps) => {
+    const firestore=firebase.database().ref('users');
+    firestore.push(values)
+    console.log('Form data', values)
+    console.log('submitProps', submitProps)
+    submitProps.setSubmitting(false)
+    submitProps.resetForm()
+  }
+  
 const validationSchema = object({
   name: string().required("Required"),
   phoneNumber:number()

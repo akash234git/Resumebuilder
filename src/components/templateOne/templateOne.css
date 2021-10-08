@@ -6,7 +6,7 @@
 .temp-first{
      margin: 0 auto;
     background-color: white;
-    font-size: small;
+    font-size: x-small;
     border: solid;
     width: 50%;
      height: auto;
@@ -24,11 +24,11 @@
     color: blue;
 }
 
-.objective{
+.objective-temp{
     margin-left: 40px;
 }
 
-.education{
+.education-temp{
     margin-left: 40px;
 }
 
@@ -45,7 +45,7 @@
     margin-left: 40px;
 }
 
-.awards{
+.awards-temp{
     margin-top: 14px;
     margin-left: 40px;
 }
