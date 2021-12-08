@@ -1,4 +1,5 @@
 import firebase  from 'firebase';
+import "firebase/firestore";
 
 
 const firebaseConfig = {
@@ -9,8 +10,17 @@ const firebaseConfig = {
   messagingSenderId: "671515805131",
   appId: "1:671515805131:web:8026c3b7229b38d9d1624e"
 };
-if(!firebase.apps[0]){
-  firebase.initializeApp(firebaseConfig);
-}
 
-export default firebase;
+if(!firebaseConfig.apiKey) throw new  Error("Missing firebase credential:apiKey");
+if(!firebaseConfig.authDomain) throw new  Error("Missing firebase credential:authDomain");
+if(!firebaseConfig.projectId) throw new  Error("Missing firebase credential:projectId");
+if(!firebaseConfig.storageBucket) throw new  Error("Missing firebase credential:storageBucket");
+if(!firebaseConfig.messagingSenderId) throw new  Error("Missing firebase credential:messagingSenderId");
+if(!firebaseConfig.appId) throw new  Error("Missing firebase credential:appId");
+
+
+
+
+ firebase.initializeApp(firebaseConfig);
+const db=firebase.firestore();
+export {db,firebase};

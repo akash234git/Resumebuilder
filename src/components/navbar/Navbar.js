@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react';
-import firebase from "firebase/app";
+import {firebase} from "../../components/firebase/firebase";
 import "firebase/auth";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
